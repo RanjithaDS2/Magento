@@ -4,3 +4,85 @@
 2024-11-03 13:11:56 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ranjithas\advance-selenium\Magento\testng.xml
 
+2024-11-03 22:18:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ranjithas\advance-selenium\Magento\testng.xml
+
+2024-11-03 22:20:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ranjithas\advance-selenium\Magento\testng.xml
+
+2024-11-03 22:20:17 INFO  TC001_Login:35 - opening the base url of the application!
+2024-11-03 22:20:21 INFO  TC001_Login:51 - Both Email and Password values are added here!
+2024-11-03 22:20:23 INFO  TC001_Login:93 - opening the base url of the application!
+2024-11-03 22:20:28 INFO  TC001_Login:131 - opening the base url of the application!
+2024-11-03 22:20:30 INFO  TC001_Login:147 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:20:32 INFO  TC001_Login:168 - opening the base url of the application!
+2024-11-03 22:20:34 INFO  TC001_Login:184 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:20:36 INFO  TC001_Login:90 - Driver tear down complete ...
+2024-11-03 22:20:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ranjithas\advance-selenium\Magento\master.xml
+
+2024-11-03 22:21:01 INFO  TC001_Login:35 - opening the base url of the application!
+2024-11-03 22:21:06 INFO  TC001_Login:51 - Both Email and Password values are added here!
+2024-11-03 22:21:12 INFO  TC001_Login:93 - opening the base url of the application!
+2024-11-03 22:21:14 INFO  TC001_Login:110 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:21:16 INFO  TC001_Login:117 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:21:17 INFO  TC001_Login:131 - opening the base url of the application!
+2024-11-03 22:21:19 INFO  TC001_Login:147 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:21:21 INFO  TC001_Login:154 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:21:22 INFO  TC001_Login:168 - opening the base url of the application!
+2024-11-03 22:21:24 INFO  TC001_Login:184 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:21:26 INFO  TC001_Login:191 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:21:26 INFO  TC001_Login:90 - Driver tear down complete ...
+2024-11-03 22:21:42 INFO  TC002_SearchTestCase:49 - User is successfully logged in to application!
+2024-11-03 22:21:42 INFO  TC002_SearchTestCase:52 - moving to women option!
+2024-11-03 22:21:42 INFO  TC002_SearchTestCase:57 - moving to tops option!
+2024-11-03 22:21:42 INFO  TC002_SearchTestCase:65 - moving to jackets option!
+2024-11-03 22:21:46 INFO  TC002_SearchTestCase:69 - click on jacket option!
+2024-11-03 22:21:51 INFO  TC002_SearchTestCase:73 - click on first product option!
+2024-11-03 22:21:51 INFO  TC002_SearchTestCase:76 - selecting the size of the first product here!
+2024-11-03 22:21:51 INFO  TC002_SearchTestCase:79 - selecting the color of the first product here!
+2024-11-03 22:21:51 INFO  TC002_SearchTestCase:85 - clicking on the color of the first product here!
+2024-11-03 22:21:51 INFO  TC002_SearchTestCase:88 - clicking on the cart here!
+2024-11-03 22:21:54 INFO  TC002_SearchTestCase:94 - clicking on the proceedToCart here!
+2024-11-03 22:21:54 INFO  TC002_SearchTestCase:90 - Driver tear down complete ...
+2024-11-03 22:22:18 INFO  TC003_ShppingAddressTestCase:65 - User is successfully addednthe product in yo cart!
+2024-11-03 22:22:29 INFO  TC003_ShppingAddressTestCase:90 - Driver tear down complete ...
+2024-11-03 22:23:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ranjithas\advance-selenium\Magento\testng.xml
+
+2024-11-03 22:23:14 INFO  TC001_Login:35 - opening the base url of the application!
+2024-11-03 22:23:18 INFO  TC001_Login:51 - Both Email and Password values are added here!
+2024-11-03 22:23:25 INFO  TC001_Login:93 - opening the base url of the application!
+2024-11-03 22:23:27 INFO  TC001_Login:110 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:23:28 INFO  TC001_Login:117 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:23:30 INFO  TC001_Login:131 - opening the base url of the application!
+2024-11-03 22:23:32 INFO  TC001_Login:147 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:23:33 INFO  TC001_Login:154 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:23:35 INFO  TC001_Login:168 - opening the base url of the application!
+2024-11-03 22:23:37 INFO  TC001_Login:184 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:23:38 INFO  TC001_Login:191 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:23:38 INFO  TC001_Login:90 - Driver tear down complete ...
+2024-11-03 22:27:46 INFO  TC001_Login:35 - opening the base url of the application!
+2024-11-03 22:27:50 INFO  TC001_Login:51 - Both Email and Password values are added here!
+2024-11-03 22:27:57 INFO  TC001_Login:93 - opening the base url of the application!
+2024-11-03 22:27:59 INFO  TC001_Login:110 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:28:01 INFO  TC001_Login:117 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:28:02 INFO  TC001_Login:131 - opening the base url of the application!
+2024-11-03 22:28:04 INFO  TC001_Login:147 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:28:06 INFO  TC001_Login:154 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:28:07 INFO  TC001_Login:168 - opening the base url of the application!
+2024-11-03 22:28:09 INFO  TC001_Login:184 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:28:11 INFO  TC001_Login:191 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:28:11 INFO  TC001_Login:90 - Driver tear down complete ...
+2024-11-03 22:29:13 INFO  TC001_Login:35 - opening the base url of the application!
+2024-11-03 22:29:17 INFO  TC001_Login:51 - Both Email and Password values are added here!
+2024-11-03 22:29:23 INFO  TC001_Login:93 - opening the base url of the application!
+2024-11-03 22:29:26 INFO  TC001_Login:110 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:29:27 INFO  TC001_Login:117 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:29:28 INFO  TC001_Login:131 - opening the base url of the application!
+2024-11-03 22:29:31 INFO  TC001_Login:147 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:29:32 INFO  TC001_Login:154 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:29:33 INFO  TC001_Login:168 - opening the base url of the application!
+2024-11-03 22:29:36 INFO  TC001_Login:184 - Both valid Email and invalid Password values are added here!
+2024-11-03 22:29:37 INFO  TC001_Login:191 - Login got failed and error message logged due to invalid password!
+2024-11-03 22:29:37 INFO  TC001_Login:90 - Driver tear down complete ...

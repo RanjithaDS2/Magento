@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-02T16:42:03 IST" name="Sanity Testing" finished-at="2024-11-02T16:42:03 IST" duration-ms="0">
+  <suite started-at="2024-11-03T22:29:07 IST" name="Sanity Testing" finished-at="2024-11-03T22:29:37 IST" duration-ms="30705">
     <groups>
+      <group name="regression">
+        <method signature="TC001_Login.loginValidation3()[pri:3, instance:testCase.TC001_Login@26fb628]" name="loginValidation3" class="testCase.TC001_Login"/>
+        <method signature="TC001_Login.loginValidation4()[pri:3, instance:testCase.TC001_Login@26fb628]" name="loginValidation4" class="testCase.TC001_Login"/>
+      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC001_Login.loginValidation1()[pri:1, instance:testCase.TC001_Login@ab7a938]" name="loginValidation1" class="testCase.TC001_Login"/>
-        <method signature="TC001_Login.loginValidation2()[pri:2, instance:testCase.TC001_Login@ab7a938]" name="loginValidation2" class="testCase.TC001_Login"/>
+        <method signature="TC001_Login.loginValidation1()[pri:1, instance:testCase.TC001_Login@26fb628]" name="loginValidation1" class="testCase.TC001_Login"/>
+        <method signature="TC001_Login.loginValidation2()[pri:2, instance:testCase.TC001_Login@26fb628]" name="loginValidation2" class="testCase.TC001_Login"/>
       </group> <!-- sanity -->
     </groups>
+    <test started-at="2024-11-03T22:29:07 IST" name="Test" finished-at="2024-11-03T22:29:37 IST" duration-ms="30705">
+      <class name="testCase.TC001_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:07 IST" name="setup" finished-at="2024-11-03T22:29:11 IST" duration-ms="4662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="intializePage()[pri:0, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:11 IST" name="intializePage" finished-at="2024-11-03T22:29:11 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializePage -->
+        <test-method signature="loginValidation1()[pri:1, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:11 IST" name="loginValidation1" finished-at="2024-11-03T22:29:22 IST" duration-ms="10879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation1 -->
+        <test-method signature="loginValidation2()[pri:2, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:22 IST" name="loginValidation2" finished-at="2024-11-03T22:29:27 IST" duration-ms="4923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation2 -->
+        <test-method signature="loginValidation3()[pri:3, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:27 IST" name="loginValidation3" finished-at="2024-11-03T22:29:32 IST" duration-ms="4960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation3 -->
+        <test-method signature="loginValidation4()[pri:3, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:32 IST" name="loginValidation4" finished-at="2024-11-03T22:29:37 IST" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC001_Login@26fb628]" started-at="2024-11-03T22:29:37 IST" name="tearDown" finished-at="2024-11-03T22:29:37 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC001_Login -->
+    </test> <!-- Test -->
   </suite> <!-- Sanity Testing -->
 </testng-results>
