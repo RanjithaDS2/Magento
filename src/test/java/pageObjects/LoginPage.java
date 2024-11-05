@@ -20,11 +20,11 @@ public class LoginPage extends basePage {
 	//locators
 	
 	@FindBy(xpath="//input[@id=\"email\"]")
-	 WebElement emailLogin;
+	public  WebElement emailLogin;
 	
 	
 	@FindBy(xpath="//input[@title=\"Password\"]")
-	 WebElement passwordLogin;
+	 public WebElement passwordLogin;
 	 
 	
 	@FindBy(xpath="//fieldset[@class='fieldset login']//span[contains(text(),'Sign In')]")

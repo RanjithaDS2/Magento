@@ -19,8 +19,6 @@
         <methods>
           <include name="intializePage"/>
           <include name="tearDown"/>
-          <include name="loginValidation2"/>
-          <include name="loginValidation1"/>
           <include name="loginValidation4"/>
           <include name="loginValidation3"/>
           <include name="setup"/>

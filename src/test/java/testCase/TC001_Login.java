@@ -14,12 +14,14 @@ public class TC001_Login extends BaseClass {
 	HomePage home;
 	LoginPage login;
 	Actions action;
-
+	BaseClass baseclass;
+	
 	@BeforeClass(groups = {"sanity","regression"})
 	public void intializePage() {
 		home = new HomePage(driver);
 		login = new LoginPage(driver);
 		action = new Actions(driver);
+		baseclass=new BaseClass();
 	}
 
 	// ***************done***************
@@ -39,13 +41,14 @@ public class TC001_Login extends BaseClass {
 		//logger.info("The SignIn button is clicked!");
 
 		Thread.sleep(2000);
+		baseclass.javaScriptClick(login.emailLogin);
 
-		login.clickEamilField();
+		//login.clickEamilField();
 		login.passEmail(email);
 
 		Thread.sleep(2000);
-
-		login.clickPasswordField();
+		baseclass.javaScriptClick(login.passwordLogin);
+		//login.clickPasswordField();
 		login.passPassword(password);
 
 		logger.info("Both Email and Password values are added here!");
@@ -98,13 +101,14 @@ public class TC001_Login extends BaseClass {
 
 		waitForPageToLoad(10);
 
-		
-		login.clickEamilField();
+		baseclass.javaScriptClick(login.emailLogin);
+		//login.clickEamilField();
 		login.passEmail(email);
 
 		Thread.sleep(2000);
 
-		login.clickPasswordField();
+		baseclass.javaScriptClick(login.passwordLogin);
+		//login.clickPasswordField();
 		login.passPassword(inValidPassword);
 
 		logger.info("Both valid Email and invalid Password values are added here!");
@@ -136,12 +140,14 @@ public class TC001_Login extends BaseClass {
 
 		waitForPageToLoad(10);
 
-		login.clickEamilField();
+		baseclass.javaScriptClick(login.emailLogin);
+		//login.clickEamilField();
 		login.passEmail(inValidEmail);
 
 		Thread.sleep(2000);
 
-		login.clickPasswordField();
+		baseclass.javaScriptClick(login.passwordLogin);
+		//login.clickPasswordField();
 		login.passPassword(password);
 
 		logger.info("Both valid Email and invalid Password values are added here!");
@@ -173,12 +179,14 @@ public class TC001_Login extends BaseClass {
 
 		waitForPageToLoad(10);
 
-		login.clickEamilField();
+		baseclass.javaScriptClick(login.emailLogin);
+		//login.clickEamilField();
 		login.passEmail(inValidEmail);
 
 		Thread.sleep(2000);
 
-		login.clickPasswordField();
+		baseclass.javaScriptClick(login.passwordLogin);
+		//login.clickPasswordField();
 		login.passPassword(inValidPassword);
 
 		logger.info("Both valid Email and invalid Password values are added here!");
