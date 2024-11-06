@@ -22,6 +22,8 @@ public class LoginPage extends basePage {
 	@FindBy(xpath="//input[@id=\"email\"]")
 	public  WebElement emailLogin;
 	
+	@FindBy(xpath="//div[@class='panel header']//a[normalize-space()='Create an Account']")
+	public WebElement createAccount;
 	
 	@FindBy(xpath="//input[@title=\"Password\"]")
 	 public WebElement passwordLogin;
@@ -55,6 +57,13 @@ public class LoginPage extends basePage {
 	
 	 //Action Methods
 	  
+	public boolean  isCreateAccountOptionDisplayed()
+	{
+		boolean displayValue=createAccount.isDisplayed();
+		return displayValue;
+	}
+	
+	
 	  public void passEmail(String user)
 	  {
 		  emailLogin.sendKeys(user);

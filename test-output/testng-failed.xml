@@ -8,22 +8,15 @@
   <test thread-count="4" parallel="tests" name="Test(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="sanity"/>
-        <include name="regression"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testCase.TC001_Login">
+      <class name="testCase.TC004_LoginDDT">
         <methods>
-          <include name="intializePage"/>
+          <include name="verify_loginDDT" invocation-numbers="1 2 3"/>
           <include name="tearDown"/>
-          <include name="loginValidation4"/>
-          <include name="loginValidation3"/>
+          <include name="intializePage"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCase.TC001_Login -->
+      </class> <!-- testCase.TC004_LoginDDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Sanity Testing] -->

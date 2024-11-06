@@ -76,7 +76,7 @@ public class TC001_Login extends BaseClass {
 		boolean isdisplayedofLogoutText=login.isLogoutDisplayed();
 		System.out.println(isdisplayedofLogoutText);
 		Assert.assertTrue(isdisplayedofLogoutText, "The element should be displayed on the page.");
-		System.out.println("the logout button is dispalyed here!----6");
+		
 		
 		login.clickLogoutButton();
 
