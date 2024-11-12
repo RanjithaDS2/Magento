@@ -11,7 +11,7 @@
     <classes>
       <class name="testCase.TC004_LoginDDT">
         <methods>
-          <include name="verify_loginDDT" invocation-numbers="1 2 3"/>
+          <include name="verify_loginDDT" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="intializePage"/>
           <include name="setup"/>

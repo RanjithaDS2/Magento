@@ -1,121 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T13:37:13 IST" name="Sanity Testing" finished-at="2024-11-06T13:38:09 IST" duration-ms="55769">
+  <suite started-at="2024-11-12T21:23:21 IST" name="Default suite" finished-at="2024-11-12T21:23:21 IST" duration-ms="89">
     <groups>
+      <group name="sanity">
+        <method signature="TC001_Login.loginValidation1()[pri:1, instance:testCase.TC001_Login@6691490c]" name="loginValidation1" class="testCase.TC001_Login"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-11-06T13:37:13 IST" name="Test" finished-at="2024-11-06T13:38:09 IST" duration-ms="55769">
-      <class name="testCase.TC004_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:37:14 IST" name="setup" finished-at="2024-11-06T13:37:27 IST" duration-ms="13372" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-11-12T21:23:21 IST" name="Default test" finished-at="2024-11-12T21:23:21 IST" duration-ms="89">
+      <class name="testCase.TC001_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC001_Login@6691490c]" started-at="2024-11-12T21:23:21 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1731426801671" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\ranjithas\AppData\Local\Temp\testng-eclipse-1330145067\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\ranjithas\AppData\Local\Temp\testng-eclipse-1330145067\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="intializePage()[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:37:27 IST" name="intializePage" finished-at="2024-11-06T13:37:27 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="intializePage()[pri:0, instance:testCase.TC001_Login@6691490c]" started-at="2024-11-12T21:23:21 IST" name="intializePage" finished-at="2024-11-12T21:23:21 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializePage -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:37:29 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-11-06T13:37:41 IST" duration-ms="12166" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kushyds15@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@9162]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ Valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="loginValidation1()[pri:1, instance:testCase.TC001_Login@6691490c]" started-at="2024-11-12T21:23:21 IST" name="loginValidation1" finished-at="2024-11-12T21:23:21 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\ranjithas\AppData\Local\Temp\testng-eclipse-1330145067\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\ranjithas\AppData\Local\Temp\testng-eclipse-1330145067\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:37:41 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-11-06T13:37:50 IST" duration-ms="9478" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@9162]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:37:50 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-11-06T13:38:00 IST" duration-ms="9352" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kushyds15@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345678]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:38:00 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-11-06T13:38:09 IST" duration-ms="8964" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345678]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC004_LoginDDT@cdc3aae]" started-at="2024-11-06T13:38:09 IST" name="tearDown" finished-at="2024-11-06T13:38:09 IST" duration-ms="334" status="PASS">
+        </test-method> <!-- loginValidation1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC001_Login@6691490c]" started-at="2024-11-12T21:23:21 IST" name="tearDown" finished-at="2024-11-12T21:23:21 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TC004_LoginDDT -->
-    </test> <!-- Test -->
-  </suite> <!-- Sanity Testing -->
+      </class> <!-- testCase.TC001_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -70,7 +70,7 @@ public class TC001_Login extends BaseClass {
 		
 		waitForElementToBeClickable(login.welcomeButton, 10); 
 		login.clickWelcomeText();
-	
+		logger.info("The welcome text button got clicked!");
 		
 		
 		boolean isdisplayedofLogoutText=login.isLogoutDisplayed();
@@ -78,7 +78,7 @@ public class TC001_Login extends BaseClass {
 		Assert.assertTrue(isdisplayedofLogoutText, "The element should be displayed on the page.");
 		
 		
-		login.clickLogoutButton();
+		//login.clickLogoutButton();
 
 	}
 

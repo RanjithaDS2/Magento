@@ -11,9 +11,8 @@
 		
 		
 		<classes>
-
-			<!--class name="testCase.TC001_Login"/>-->
-			<class name="testCase.TC004_LoginDDT"/>
+            <class name="testCase.TC001_Login"/>
+			<!--class name="testCase.TC004_LoginDDT"/>-->
 			<!--class name="testCase.TC002_SearchTestCase"/>-->
 			<!--class name="testCase.TC003_ShppingAddressTestCase"/>-->
 		</classes>
